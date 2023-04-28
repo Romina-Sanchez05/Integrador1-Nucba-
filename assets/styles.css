@@ -5,20 +5,12 @@
   --background: #02050e;
   --primary: #003566;
   --secondary: #274c77;
-  --btn-bg: ;
-  --bg-azul-10: ;
-  --bg-white:
-    --bg-electric: #;
-  --nav-bg: #;
+
 
   /* Text colors */
   --text-gray: #adb9c7;
   --text-white: #f3f4f6;
   --text-black: #000000;
-
-  /* Decoration */
-  --fire: #;
-  --electric: #;
 }
 
 * {
@@ -28,6 +20,7 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   list-style-type: none;
+  scroll-behavior: smooth
 }
 
 header {
@@ -107,7 +100,7 @@ main {
 #hero {
   margin-top: 65px;
   padding: 70px 0;
-  max-width: 1200px;
+  max-width: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,7 +148,7 @@ main {
 }
 
 .hero-card {
-  width: 650px;
+  width: 500px;
   padding: 20px;
   border-radius: 55px;
   display: flex;
@@ -232,7 +225,7 @@ main {
 .discover-card img {
   height: 160px;
 }
-
+  
 /* Contact */
 #contact {
   display: flex;
@@ -284,7 +277,7 @@ main {
 }
 
 inframe {
-  height: 300px;
+  height: 250px;
   width: 400px;
 }
 

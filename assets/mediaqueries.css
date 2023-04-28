@@ -9,13 +9,16 @@
 
  .hero-info h1 {
     display: block;
-    width: 100%;
- }
+    width: 90%;
+    max-width: 500px;
+    min-width: unset;
+    }
 
  .hero-info p {
-    max-width: 80%;
-    font-size: 16px; 
- }
+   width: 60%;
+   max-width: 500px;
+   font-size: 16px; 
+    }
 
  .hero-card {
    display: none;
@@ -34,7 +37,7 @@
    gap: 50px;
  }
 
- .info-container h2 {
+ .info-container h2 { 
    text-align: center;
  }
 }
@@ -48,11 +51,11 @@
   top: 65px;
   left: 0;
   flex-direction: column;
- align-items: center;
+  align-items: center;
   justify-content: center;
   transform: translateX(200%);
   transition: all 0.4s ease-out;
-}
+ }
 
  .navbar i {
    display: block;
@@ -60,25 +63,25 @@
  #toggle-menu:checked ~ .navbar-list {
    transform: translateX(0%);
    transition: all 0.4s ease-in;
-}
+ }
 
-.hero-info p {
+ .hero-info p {
    max-width: 100%;
-}
+ }
 
 
-.contact-info-container {
+ .contact-info-container {
    flex-direction: column;
    text-align: center;
    gap: 50px;
-}
-.info-column {
+ }
+ .info-column {
    align-items: center;
-}
+ }
 
-inframe {
-   height: 300px;
-   width: 100%;
-}
+ inframe {
+ height: 200px;
+   width: 30%;
+ }
 
 }
