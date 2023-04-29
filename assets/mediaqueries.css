@@ -69,6 +69,10 @@
    max-width: 100%;
  }
 
+ #discover h2 {
+  font-size: 15px;
+
+}
 
  .contact-info-container {
    flex-direction: column;
